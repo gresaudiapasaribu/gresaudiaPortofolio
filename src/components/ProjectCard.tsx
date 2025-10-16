@@ -38,7 +38,7 @@ const ProjectCard = ({ title, description, image, demo, github }: ProjectProps) 
           <a
             href={demo}
             target="_blank"
-            className="flex items-center gap-2 bg-blue-600 hover:bg-blue-700 transition-colors px-3 py-1.5 rounded-lg text-sm"
+            className="flex items-center gap-2 bg-[#7B8AEA] hover:bg-blue-500 transition-colors px-3 py-1.5 rounded-lg text-sm"
           >
             <FaExternalLinkAlt /> Live Demo
           </a>

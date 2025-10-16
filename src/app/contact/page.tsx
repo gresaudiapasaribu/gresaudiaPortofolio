@@ -18,21 +18,21 @@ const Contact = () => {
         <div className="flex justify-center gap-6">
           <a
             href="mailto:gresaudipasaribu@gmail.com"
-            className="flex items-center gap-2 hover:text-blue-400"
+            className="flex items-center gap-2 hover:text-blue-500"
           >
             <FaEnvelope /> Email
           </a>
           <a
             href="https://github.com/gresaudiapasaribu"
             target="_blank"
-            className="flex items-center gap-2 hover:text-blue-400"
+            className="flex items-center gap-2 hover:text-blue-500"
           >
             <FaGithub /> GitHub
           </a>
           <a
             href="https://www.linkedin.com/in/gres-audia-pasaribu-231b3a25a/"
             target="_blank"
-            className="flex items-center gap-2 hover:text-blue-400"
+            className="flex items-center gap-2 hover:text-blue-500"
           >
             <FaLinkedin /> LinkedIn
           </a>

@@ -1,5 +1,12 @@
 export const projects = [
   {
+    title: "Keliling Sumut",
+    description: "Website wisata Sumatera Utara",
+    image: "/images/kelilingsumut.webp",
+    demo: "https://kelilingsumut.com/",
+    github: "https://github.com/Prim25/kelilingsumut.git",
+  },
+  {
     title: "Anabul",
     description: "Website adopsi hewan anjing dan kucing",
     image: "/images/anabulImage.webp",
@@ -12,13 +19,6 @@ export const projects = [
     image: "/images/audiapick.webp",
     demo: "https://audia-pick.vercel.app/",
     github: "https://github.com/gresaudiapasaribu/AudiaPick.git",
-  },
-  {
-    title: "Keliling Sumut",
-    description: "Website wisata Sumatera Utara",
-    image: "/images/kelilingsumut.webp",
-    demo: "",
-    github: "https://github.com/Prim25/kelilingsumut.git",
   },
   {
     title: "Rest countries api with color theme switcher",

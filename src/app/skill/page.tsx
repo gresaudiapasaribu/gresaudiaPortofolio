@@ -19,7 +19,7 @@ const Skill = () => {
   return (
     <section className="py-16 bg-gray-950 text-white px-10">
       <div className="max-w-6xl mx-auto px-6 text-center">
-        <h2 className="text-3xl font-bold mb-12 text-blue-400">
+        <h2 className="text-3xl font-bold mb-12 text-[#7B8AEA]">
           Technical Skills
         </h2>
 

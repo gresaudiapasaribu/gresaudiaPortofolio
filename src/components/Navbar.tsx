@@ -8,22 +8,22 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav className="fixed px-10 top-0 left-0 w-full bg-white/80 dark:bg-gray-900/80 backdrop-blur-md shadow-sm z-50">
+    <div className="fixed px-10 top-0 left-0 w-full bg-white/80 dark:bg-gray-900/80 backdrop-blur-md shadow-sm z-50">
       <div className="container mx-auto flex justify-between items-center py-4 px-6">
         {/* Logo */}
-        <Link href="/" className="text-2xl font-bold text-blue-600">
+        <Link href="/" className="text-2xl font-bold text-[#7B8AEA]">
           Gresaudia
         </Link>
 
         {/* Menu Desktop */}
         <div className="hidden md:flex gap-6 text-gray-700 dark:text-gray-200">
-          <Link href="#home" className="hover:text-blue-600">
+          <Link href="#home" className="hover:text-[#7B8AEA]">
             Home
           </Link>
-          <Link href="#projects" className="hover:text-blue-600">
+          <Link href="#projects" className="hover:text-[#7B8AEA]">
             Projects
           </Link>
-          <Link href="#contact" className="hover:text-blue-600">
+          <Link href="#contact" className="hover:text-[#7B8AEA]">
             Contact
           </Link>
         </div>
@@ -56,7 +56,7 @@ const Navbar = () => {
           </div>
         </div>
       )}
-    </nav>
+    </div>
   );
 };
 

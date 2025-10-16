@@ -10,7 +10,7 @@ const Footer = () => {
           <Link
             href="https://github.com/yourusername"
             target="_blank"
-            className="text-blue-600 hover:underline"
+            className="text-[#7B8AEA] hover:underline"
           >
            by Gres Audia 
           </Link>
