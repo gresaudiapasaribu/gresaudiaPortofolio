@@ -7,18 +7,18 @@ export const projects = [
     github: "https://github.com/Prim25/kelilingsumut.git",
   },
   {
+    title: "AudiBlog",
+    description: "Simple Blog",
+    image: "/images/blog.webp",
+    demo: "https://blog-one-zeta-86.vercel.app/",
+    github: "https://github.com/gresaudiapasaribu/blog.git",
+  },
+  {
     title: "Anabul",
     description: "Website adopsi hewan anjing dan kucing",
     image: "/images/anabulImage.webp",
     demo: "https://anabul-19bajcyly-gresaudiapasaribus-projects.vercel.app/",
     github: "https://github.com/AngHaeJhie/anabul.git",
-  },
-  {
-    title: "audiapick",
-    description: "Website simple ecommerce",
-    image: "/images/audiapick.webp",
-    demo: "https://audia-pick.vercel.app/",
-    github: "https://github.com/gresaudiapasaribu/AudiaPick.git",
   },
   {
     title: "Rest countries api with color theme switcher",
